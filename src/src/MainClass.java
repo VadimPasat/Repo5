@@ -9,25 +9,9 @@ public class MainClass {
            total += i;
         }
         System.out.println("Sum of array is: " + total);
+        System.out.println("Sum of array + 10 is:" + total + 10);
 
-        System.out.println(findIndex(arr,5));
     }
 
-    public static int findIndex(int arr[], int t)
-    {
-        if (arr == null) {
-            return -1;
-        }
-        int len = arr.length;
-        int i = 0;
-        while (i < len) {
-            if (arr[i] == t) {
-                return i;
-            }
-            else {
-                i = i + 1;
-            }
-        }
-        return -1;
-    }
+
 }
