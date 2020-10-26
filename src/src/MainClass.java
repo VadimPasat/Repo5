@@ -1,4 +1,6 @@
 public class MainClass {
+    String name;
+    int age;
     public static void main(String[] args) {
         System.out.println("Hello Worl");
         System.out.println("Commit and Push this changes");
@@ -11,7 +13,18 @@ public class MainClass {
         System.out.println("Sum of array is: " + total);
         System.out.println("Sum of array + 10 is:" + total + 10);
 
+        MainClass mainClass = new MainClass();
+        mainClass.name = "Andrew";
+        mainClass.age = 26;
+        System.out.println("Our client is " + mainClass.name + " and he have " + mainClass.age);
     }
-
+public String name (String name){
+        this.name = name;
+        return name;
+}
+    public int age (int age){
+        this.age = age;
+        return age;
+    }
 
 }
