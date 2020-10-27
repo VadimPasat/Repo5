@@ -18,7 +18,6 @@ public class MainClass {
         }
         System.out.println("Sum of array is: " + total);
 
-        System.out.println(findIndex(arr,5));
     }
     public String getName() {
         return name;
@@ -34,23 +33,5 @@ public class MainClass {
 
     public void setAge(int age) {
         this.age = age;
-    }
-  
-    public static int findIndex(int arr[], int t)
-    {
-        if (arr == null) {
-            return -1;
-        }
-        int len = arr.length;
-        int i = 0;
-        while (i < len) {
-            if (arr[i] == t) {
-                return i;
-            }
-            else {
-                i = i + 1;
-            }
-        }
-        return -1;
     }
 }
