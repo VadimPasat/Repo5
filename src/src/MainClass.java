@@ -2,9 +2,8 @@ public class MainClass {
    private String name;
    private int age;
 
-    String name;
-    int age;
-  
+//    String name;
+//    int age;
     public static void main(String[] args) {
         System.out.println("Hello Worl");
         System.out.println("Commit and Push this changes");
@@ -21,8 +20,6 @@ public class MainClass {
 
         System.out.println(findIndex(arr,5));
     }
- 
-
     public String getName() {
         return name;
     }
