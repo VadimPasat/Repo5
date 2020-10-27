@@ -14,6 +14,5 @@ public class MainClass {
            total += i;
         }
         System.out.println("Sum of array is: " + total);
-
     }
 }
